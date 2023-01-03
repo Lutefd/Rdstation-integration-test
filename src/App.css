@@ -45,13 +45,15 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: nogrow;
 }
 
 .modal-content {
+  max-width: fit-content;
   background-color: transparent;
   padding: 20px;
   border-radius: 5px;
